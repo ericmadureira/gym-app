@@ -8,7 +8,7 @@ const AppNavigator = createStackNavigator(
 		Home: { screen: Home },
 		ProgramList: { screen: ProgramList }
 	},
-	{ initialRouteName: "ProgramList" }
+	{ initialRouteName: "Home" }
 );
 
 export default createAppContainer(AppNavigator);
