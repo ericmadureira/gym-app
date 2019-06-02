@@ -2,7 +2,7 @@
 App example to practice React Native.
 
 ## Screens
-* Home
+* Home :heavy_check_mark:
 * Features
 * User profile
 * Trainning register
