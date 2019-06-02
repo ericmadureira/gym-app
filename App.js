@@ -3,9 +3,12 @@ import { createStackNavigator, createAppContainer } from 'react-navigation'
 import Home from './Home';
 import ProgramList from './ProgramList';
 
-const AppNavigator = createStackNavigator({
-  Home: { screen: Home },
-  ProgramList: { screen: ProgramList }
-});
+const AppNavigator = createStackNavigator(
+	{
+		Home: { screen: Home },
+		ProgramList: { screen: ProgramList }
+	},
+	{ initialRouteName: "ProgramList" }
+);
 
 export default createAppContainer(AppNavigator);

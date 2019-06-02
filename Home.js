@@ -9,7 +9,13 @@ export default class Home extends React.Component {
         <ImageBackground source={require('./assets/dead-lift.jpg')} style={{width: '100%', height: '100%', padding: 0, margin: 0}}>
           <View style={styles.panel}>
             <Text style={styles.title}>ProFitness</Text>
-            <Button style={styles.button} mode="contained" onPress={() => console.log('Pressed')}>Sign in</Button>
+            <Button
+              style={styles.button}
+              title="Sign In"
+              mode="contained"              
+              onPress={() => this.props.navigation.navigate('ProgramList')}>
+              Sign in
+            </Button>            
             <Text style={styles.register}>Not a member?</Text>
           </View>
           <View style={styles.trademark}>
