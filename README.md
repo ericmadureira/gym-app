@@ -8,12 +8,12 @@ App example to practice React Native.
 * Trainning register
 * Calories counter
 * Available activities
-** Swimming
-** Strength trainning
-*** Trainning plan
-**** Trainning: 3 exercises
-**** Regressive timer
-**** Ending alarm
+	* Swimming
+	* Strength trainning
+		* Trainning plan
+			* Trainning: 3 exercises
+			* Regressive timer
+			* Ending alarm
 
 ## References
 https://reactnavigation.org/docs/en/getting-started.html
