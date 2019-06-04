@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { Button, Card } from 'react-native-paper';
-// import LogoTitle from './LogoTitle';
+import LogoTitle from './LogoTitle';
 
 export default class Home extends React.Component {
   static navigationOptions = {
