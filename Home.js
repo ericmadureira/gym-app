@@ -1,26 +1,35 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { Button, Card } from 'react-native-paper';
+// import LogoTitle from './LogoTitle';
 
 export default class Home extends React.Component {
   static navigationOptions = {
-    title: 'Home',
+    title: 'ProFitness',
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="About"
+        color="#fff">
+        About
+      </Button>
+    ),
   };
-  
+
   render() {
     return (
       <View style={styles.container}>
         <ImageBackground source={require('./assets/dead-lift.jpg')} style={{width: '100%', height: '100%', padding: 0, margin: 0}}>
           <View style={styles.panel}>
-            <Text style={styles.title}>ProFitness</Text>
+            <Text style={styles.title}>Start your training now</Text>
             <Button
               style={styles.button}
               title="Sign In"
-              mode="contained"              
+              mode="contained"
               onPress={() => this.props.navigation.navigate('ProgramList', {
                 userName: 'Eric Madureira'})}>
-              Sign in
-            </Button>            
+              Sign In
+            </Button>
             <Text style={styles.register}>Not a member?</Text>
           </View>
           <View style={styles.trademark}>
@@ -65,11 +74,11 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   title: {
-    margin: 36,
+    margin: 24,
     fontSize: 48,
     fontWeight: 'bold',
     textAlign: 'center',
-    color: '#2274f7',
+    color: '#fff',
   },
   trademark: {
     flex: 1,
