@@ -4,9 +4,14 @@ import { Button, Card } from 'react-native-paper';
 
 export default class Home extends React.Component {
   render() {
+    const { navigation } = this.props;
+    var now = new Date().toString();
+    const userName = navigation.getParam('userName', '...');
+
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Programs List</Text>
+        <Text style={styles.title}>{now}</Text>
+        <Text style={styles.title}>Welcome, {JSON.stringify(userName)}</Text>
       </View>
     );
   }

@@ -13,7 +13,8 @@ export default class Home extends React.Component {
               style={styles.button}
               title="Sign In"
               mode="contained"              
-              onPress={() => this.props.navigation.push('ProgramList')}>
+              onPress={() => this.props.navigation.navigate('ProgramList', {
+                userName: 'Eric Madureira'})}>
               Sign in
             </Button>            
             <Text style={styles.register}>Not a member?</Text>
