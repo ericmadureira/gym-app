@@ -2,7 +2,11 @@ import React from 'react';
 import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { Button, Card } from 'react-native-paper';
 
-export default class Home extends React.Component {
+export default class ProgramList extends React.Component {
+  static navigationOptions = {
+    title: 'Training Programs',
+  };
+
   render() {
     const { navigation } = this.props;
     var now = new Date().toString();

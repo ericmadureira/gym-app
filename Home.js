@@ -3,6 +3,10 @@ import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { Button, Card } from 'react-native-paper';
 
 export default class Home extends React.Component {
+  static navigationOptions = {
+    title: 'Home',
+  };
+  
   render() {
     return (
       <View style={styles.container}>
