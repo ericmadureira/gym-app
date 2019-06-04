@@ -6,14 +6,6 @@ import LogoTitle from './LogoTitle';
 export default class Home extends React.Component {
   static navigationOptions = {
     title: 'ProFitness',
-    headerRight: (
-      <Button
-        onPress={() => alert('This is a button!')}
-        title="About"
-        color="#fff">
-        About
-      </Button>
-    ),
   };
 
   render() {

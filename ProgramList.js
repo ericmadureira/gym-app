@@ -4,7 +4,7 @@ import { Button, Card } from 'react-native-paper';
 
 export default class ProgramList extends React.Component {
   static navigationOptions = {
-    title: 'Training Programs'
+    title: 'Training Programs',
   };
 
   render() {

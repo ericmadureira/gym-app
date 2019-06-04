@@ -24,13 +24,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
-    margin: 36,
-    fontSize: 48,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: '#2274f7',
-  },
   paragraph: {
     margin: 36,
     fontSize: 11,
