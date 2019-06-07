@@ -8,7 +8,7 @@ App example to practice React Native.
 * Training history
 * Activities
 	* Swimming
-        * Martial arts
+  * Martial arts
 	* Strength training
 * Training assist
 	* Training: 3 exercises
